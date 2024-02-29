@@ -5,6 +5,7 @@ import foto3 from "../../assets/amigocris.jpg";
 import foto4 from "../../assets/maedocris.jpg";
 import foto5 from "../../assets/irmacris.jpg";
 import foto6 from "../../assets/irmaodocris.jpg";
+import Story from "../story";
 
 
 export default function Stories() {
@@ -12,54 +13,12 @@ export default function Stories() {
     <ScrollView horizontal style={{ flexDirection: "row", gap: 16 }}
       contentContainerStyle={styles.container }
       showsHorizontalScrollIndicator={false}>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto1
-          }
-        />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto2
-          }
-        />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto3
-          }
-        />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto4
-          }
-        />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto5
-          }
-        />
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <Image
-          style={styles.story}
-          source={
-            foto6
-          }
-        />
-      </TouchableOpacity>
+      <Story image={foto1}/>
+      <Story image={foto2}/>
+      <Story image={foto3}/>
+      <Story image={foto4}/>
+      <Story image={foto5}/>
+      <Story image={foto6}/>
     </ScrollView>
   )
 }

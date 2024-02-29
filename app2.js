@@ -1,18 +1,12 @@
-
-import { StyleSheet,  View} from 'react-native';
-import PessoaProfile from "./src/assets/julios.jpg";
-import InfoProfile from "./src/components/InfoProfile";
+import { StyleSheet,  View} from "react-native";
+import Header from "./src/components/Header";
+import Stories from "./src/components/Stories";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <InfoProfile
-      image={PessoaProfile}
-      publi={2}
-      followers={456.045}
-      following={4}
-      descricao={"Julios"}
-      />
+      <Header/>
+      <Stories/>
     </View>
   );
 }
