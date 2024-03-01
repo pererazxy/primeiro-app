@@ -2,6 +2,7 @@
 import { StyleSheet,  View} from 'react-native';
 import PessoaProfile from "./src/assets/julios.jpg";
 import InfoProfile from "./src/components/InfoProfile";
+import MyPosts from './src/components/MyPosts';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       following={4}
       descricao={"Julios"}
       />
+      <MyPosts/>
     </View>
   );
 }
