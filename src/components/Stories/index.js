@@ -5,7 +5,7 @@ import foto3 from "../../assets/amigocris.jpg";
 import foto4 from "../../assets/maedocris.jpg";
 import foto5 from "../../assets/irmacris.jpg";
 import foto6 from "../../assets/irmaodocris.jpg";
-import Story from "../story";
+import Story from "../Story";
 
 
 export default function Stories() {
