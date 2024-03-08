@@ -1,6 +1,6 @@
 import { Touchable, TouchableOpacity, View, StyleSheet, Image } from 'react-native'
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Post from '../../assets/post.jpg'
+import Post1 from '../../assets/post.jpg'
 
 
 export default function MyPosts() {
@@ -18,15 +18,15 @@ export default function MyPosts() {
                 </TouchableOpacity>
             </View>
             <View style={styles.postsList}>
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
-                <Image source={Post} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
+                <Image source={Post1} style={styles.post} />
             </View>
         </View>
     );
